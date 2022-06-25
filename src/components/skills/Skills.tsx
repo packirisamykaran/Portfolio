@@ -22,7 +22,7 @@ export default function Skills() {
 
   return (
     <div className="skills">
-      <h2>Web Technologies</h2>
+      <h2>Web Technologies i have worked with</h2>
       <div className="skills-container">
         {techDisplay}
       </div>      

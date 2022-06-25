@@ -17,7 +17,7 @@
     justify-content: space-around;
     align-items: center;
     // padding-top: 8rem ;
-    background-color: rgba($pri, 0.9);
+    background-color: lighten($color: $pri, $amount: 5%);
 
 
         .greet-title{
@@ -44,19 +44,27 @@
                 font-weight: 500;
                 font-size: 2.5rem;
                 
+                
             }
+
+            
 
         }
 
         .title{
-            font-size: 1.7rem;
+            font-size: 1.3rem;
             color: $sec;
-            width: fit-content;
             text-align: center;
             background-color: white;
             margin-inline: auto;
             white-space: nowrap;
- 
+            font-family:  'Rubik', sans-serif;
+            position: relative;
+            width: max-content;
+            border: none;
+            outline: none;
+
+            
             
             //     overflow: hidden; /* Ensures the content is not revealed until the animation */
             //     border-right: .15em solid $pri; /* The typwriter cursor */
@@ -64,14 +72,14 @@
             //     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
             //     letter-spacing: .15em; /* Adjust as needed */
             //     animation: 
-            //       typing 3.5s steps(40, end),
+            //       typing 3.5s steps(24, end),
             //       blink-caret .5s step-end infinite;
             
             
             //   /* The typing effect */
             //   @keyframes typing {
             //     from { width: 0 }
-            //     to { width: 90% }
+            //     to { width: 100% }
             //   }
             
             //   /* The typewriter cursor effect */
@@ -80,6 +88,34 @@
             //     50% { border-color: $pri; }
             //   }
         }
+
+        .title::before, .title::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right:0;
+            border: none;
+            outline: none;
+
+        } 
+
+        .title::before{
+            background-color:  lighten($color: $pri, $amount: 5%) ;
+            
+            animation: typewriter 5s steps(15) forwards;
+            border: none;
+            outline: none;
+
+        }
+
+        @keyframes typewriter {
+            to{
+                left:100%;
+            }
+        }
+
 
         .dev-vector{
             
