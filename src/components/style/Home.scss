@@ -1,0 +1,152 @@
+@import "./App.scss";
+
+.home{
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    
+
+   .intro{
+    height: calc(100vh - 85.6px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    // padding-top: 8rem ;
+    background-color: rgba($pri, 0.9);
+
+
+        .greet-title{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            row-gap: 2rem;
+            
+            // height: 100%;
+
+
+        }
+        
+        .greet{
+            font-size: 2rem;
+            color: white;
+            .gif{
+                width: 50px;
+            }
+
+            .name{
+                color:$sec;
+                font-weight: 500;
+                font-size: 2.5rem;
+                
+            }
+
+        }
+
+        .title{
+            font-size: 1.7rem;
+            color: $sec;
+            width: fit-content;
+            text-align: center;
+            background-color: white;
+            margin-inline: auto;
+            white-space: nowrap;
+ 
+            
+            //     overflow: hidden; /* Ensures the content is not revealed until the animation */
+            //     border-right: .15em solid $pri; /* The typwriter cursor */
+            //     white-space: nowrap; /* Keeps the content on a single line */
+            //     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            //     letter-spacing: .15em; /* Adjust as needed */
+            //     animation: 
+            //       typing 3.5s steps(40, end),
+            //       blink-caret .5s step-end infinite;
+            
+            
+            //   /* The typing effect */
+            //   @keyframes typing {
+            //     from { width: 0 }
+            //     to { width: 90% }
+            //   }
+            
+            //   /* The typewriter cursor effect */
+            //   @keyframes blink-caret {
+            //     from, to { border-color: transparent }
+            //     50% { border-color: $pri; }
+            //   }
+        }
+
+        .dev-vector{
+            
+            max-width : 100%;
+        }
+
+    }
+
+
+    .coding-journey{
+        border: none;
+        background-color: rgba($pri, 0.98);
+        color: white;
+        text-align: center;
+
+        h2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .coding-gif{
+            display: inline;
+            width:80px;
+        }
+
+        .journey{
+
+            margin-top: 2rem;
+            padding: 0 0.5rem;
+            font-size: 1.4rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+
+
+        }
+
+
+    }
+
+    
+}
+
+.home>*{
+    padding: 2rem 2rem;
+ 
+}
+
+mark{
+    color: $sec;
+    background-color: transparent;
+}
+
+
+@media (min-width:1000px) {
+    .home{
+
+        
+
+        .intro{
+            display: flex;
+            flex-direction: row;
+            padding: 0 4rem;
+        }
+
+       
+    }
+}

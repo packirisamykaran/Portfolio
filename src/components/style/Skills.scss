@@ -1,0 +1,67 @@
+@import "./App.scss";
+
+.skills{
+
+    background-color:rgba($color: $pri, $alpha: 0.9);
+
+
+    h2{
+        color: white;
+    }
+
+    .skills-container{
+        margin-top: 1rem;
+        width: 100%;
+        display: grid;
+        // background-color: aquamarine;
+        grid-template-columns: auto auto;
+        gap:2rem;
+        
+        
+
+        .items{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // background-color: aliceblue;
+
+            width: 100%;
+
+
+            .skill{
+                color: white;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+        }
+
+        .icon{
+            width: 100%;
+        }
+    }
+
+}
+
+
+
+@media (min-width:1000px) {
+    
+    .skills{
+        text-align: center;
+        padding: 4rem;
+        .skills-container{
+
+            display: grid;
+            margin-top: 4rem;
+            grid-template-rows: 100px 100px;
+            grid-auto-flow: column dense;
+            grid-gap: 5rem;
+
+            .icon{
+                width: 100px;
+            }
+        }
+    }
+    
+}
