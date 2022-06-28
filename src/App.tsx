@@ -6,7 +6,7 @@ import Home from './components/home/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='portfolio'>
       <div className="app">
         <Navbar/>
         <Outlet/>

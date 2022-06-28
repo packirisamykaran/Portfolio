@@ -48,6 +48,10 @@
   row-gap: 2rem;
 }
 
+.home .intro .greet-title .title {
+  height: 1.3rem;
+}
+
 .home .intro .greet {
   font-size: 2rem;
   color: white;
@@ -61,53 +65,6 @@
   color: #ef476f;
   font-weight: 500;
   font-size: 2.5rem;
-}
-
-.home .intro .title {
-  font-size: 1.3rem;
-  color: #ef476f;
-  text-align: center;
-  background-color: white;
-  margin-inline: auto;
-  white-space: nowrap;
-  font-family: 'Rubik', sans-serif;
-  position: relative;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  border: none;
-  outline: none;
-}
-
-.home .intro .title::before, .home .intro .title::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border: none;
-  outline: none;
-}
-
-.home .intro .title::before {
-  background-color: #1a2b50;
-  -webkit-animation: typewriter 5s steps(15) forwards;
-          animation: typewriter 5s steps(15) forwards;
-  border: none;
-  outline: none;
-}
-
-@-webkit-keyframes typewriter {
-  to {
-    left: 100%;
-  }
-}
-
-@keyframes typewriter {
-  to {
-    left: 100%;
-  }
 }
 
 .home .intro .dev-vector {

@@ -44,6 +44,9 @@
   "react-scripts": "5.0.1",
   
     
+  "react-typewriter-effect": "^1.1.0",
+  
+    
   "typescript": "^4.7.4",
   
     
@@ -52,8 +55,13 @@
   },
   
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  
+    
+  "predeploy": "npm run build",
+  
+    
+  "deploy": "gh-pages -d build",
+  
     
   "start": "react-scripts start",
   
