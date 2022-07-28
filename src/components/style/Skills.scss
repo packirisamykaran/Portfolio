@@ -3,6 +3,7 @@
 .skills{
 
     background-color:rgba($color: $pri, $alpha: 0.9);
+    background-color: lighten($color: $pri, $amount: 5%);
 
 
     h2{

@@ -15,12 +15,12 @@ export default function Navbar() {
                 <label className='menu-button-container' htmlFor="menu-toggle">
                 <div className='menu-button'></div>
                 </label>
-            {/* <div className="menu">
+            <div className="menu">
                 <Link to="" className="link">home</Link>
                 <Link to="" className="link">about</Link>
                 <Link to="" className="link">projects</Link>
                 <Link to="" className="link">resume</Link>
-            </div> */}
+            </div>
 
             
         </div>
