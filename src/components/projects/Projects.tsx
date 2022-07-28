@@ -27,13 +27,6 @@ export default function Projects() {
         <h1><mark>Projects</mark></h1>
         <div className="list">
           {projectList}
-          {/* <div className="items">
-            <img src="" alt="" />
-            <div className="name"></div>
-            <div className="description"></div>
-            <a href='sd' className="view">View Project</a>
-            <a href='sd' className="github">Github</a>
-          </div> */}
         </div>
     </div>
   )
