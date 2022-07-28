@@ -5,6 +5,7 @@ import devImg from "../images/dev-vector.png";
 import Coding from '../coding/Coding';
 import Skills from '../skills/Skills';
 import TypeWriterEffect from 'react-typewriter-effect';
+import Projects from '../projects/Projects';
 
 
 
@@ -18,7 +19,7 @@ export default function Home() {
           <div className="greet-title">
             <div className="greet">
                 Hi
-                <img src={media.ironman} className="gif"></img><br/>
+                <img src={media.ironman} alt="gif" className="gif"></img><br/>
                 I'M&nbsp;
                 <span className="name">
                    PACKIRISAMY KARAN
@@ -55,6 +56,7 @@ export default function Home() {
         </div>
         <Coding/>
         <Skills/>
+        <Projects/>
     </div>
   )
 }
