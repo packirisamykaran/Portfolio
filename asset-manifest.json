@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.96fba848.css",
-    "main.js": "/portfolio/static/js/main.6d742838.js",
+    "main.css": "/portfolio/static/css/main.416f88f2.css",
+    "main.js": "/portfolio/static/js/main.0342b59c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Cheong Machinery Equipment.png": "/portfolio/static/media/Cheong Machinery Equipment.6114dd844585fd98291c.png",
     "static/media/dev-vector.png": "/portfolio/static/media/dev-vector.89fab8b182fb38d04465.png",
+    "static/media/Daily Thoughts.png": "/portfolio/static/media/Daily Thoughts.7fa772ec7a24c1b77c7b.png",
     "index.html": "/portfolio/index.html",
-    "main.96fba848.css.map": "/portfolio/static/css/main.96fba848.css.map",
-    "main.6d742838.js.map": "/portfolio/static/js/main.6d742838.js.map",
+    "main.416f88f2.css.map": "/portfolio/static/css/main.416f88f2.css.map",
+    "main.0342b59c.js.map": "/portfolio/static/js/main.0342b59c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96fba848.css",
-    "static/js/main.6d742838.js"
+    "static/css/main.416f88f2.css",
+    "static/js/main.0342b59c.js"
   ]
 }
