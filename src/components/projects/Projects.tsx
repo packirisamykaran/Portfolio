@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/Projects.css"
-import projectDetails, { projectDetailsType } from './projectDetails'
+import projectDetails from './projectDetails'
 
 export default function Projects() {
 

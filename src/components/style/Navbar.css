@@ -23,9 +23,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .navbar .logo {
