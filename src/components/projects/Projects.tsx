@@ -23,7 +23,7 @@ export default function Projects() {
 
 
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
         <h1><mark>Projects</mark></h1>
         <div className="list">
           {projectList}

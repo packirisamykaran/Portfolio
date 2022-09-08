@@ -3,7 +3,7 @@ import { media } from '../assets'
 
 export default function Coding() {
   return (
-    <div className="coding-journey">
+    <div id='about' className="coding-journey">
             <h2>How i &nbsp;<mark>started</mark> &nbsp;coding <img src={media['coding-gif']} className="coding-gif" alt="" /></h2>
             <div className="journey">
               <div> i began programming in 2021 when i was trying to build an online business.</div>

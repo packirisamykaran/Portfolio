@@ -21,7 +21,7 @@ export default function Skills() {
   })
 
   return (
-    <div className="skills">
+    <div className="skills" id='skills'>
       <h2>Web Technologies i have worked with</h2>
       <div className="skills-container">
         {techDisplay}

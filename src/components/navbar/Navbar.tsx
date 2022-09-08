@@ -21,6 +21,11 @@ export default function Navbar() {
                     <Link to="" className="link">projects</Link>
                     <Link to="" className="link">resume</Link>
                 </div> */}
+                <div className="menu">
+                  <a href="#about" className='link'>about</a>
+                  <a href="#skills" className='link'>skills</a>
+                  <a href="#projects" className='link'>projects</a>
+                </div>
 
             
         </div>
