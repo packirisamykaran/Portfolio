@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.906c71c8.css",
-    "main.js": "/portfolio/static/js/main.b8509fa6.js",
+    "main.js": "/portfolio/static/js/main.a6559b1a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Cheong Machinery Equipment.png": "/portfolio/static/media/Cheong Machinery Equipment.6114dd844585fd98291c.png",
+    "static/media/Sentosa NFT Project.png": "/portfolio/static/media/Sentosa NFT Project.ec2a3edeae24b41ef62a.png",
     "static/media/dev-vector.png": "/portfolio/static/media/dev-vector.89fab8b182fb38d04465.png",
     "static/media/Daily Thoughts.png": "/portfolio/static/media/Daily Thoughts.7fa772ec7a24c1b77c7b.png",
     "index.html": "/portfolio/index.html",
     "main.906c71c8.css.map": "/portfolio/static/css/main.906c71c8.css.map",
-    "main.b8509fa6.js.map": "/portfolio/static/js/main.b8509fa6.js.map",
+    "main.a6559b1a.js.map": "/portfolio/static/js/main.a6559b1a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.906c71c8.css",
-    "static/js/main.b8509fa6.js"
+    "static/js/main.a6559b1a.js"
   ]
 }
