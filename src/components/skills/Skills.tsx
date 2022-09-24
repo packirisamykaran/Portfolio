@@ -16,7 +16,7 @@ export default function Skills() {
     "SQL" : "https://img.icons8.com/external-soft-fill-juicy-fish/344/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png",
     "Firebase": "https://img.icons8.com/color/344/firebase.png",
     "Sass":"https://img.icons8.com/color/344/sass.png",
-    "Rust":"https://cdn.icon-icons.com/icons2/2699/PNG/512/rust_lang_logo_icon_169776.png"
+    // "Rust":"https://cdn.icon-icons.com/icons2/2699/PNG/512/rust_lang_logo_icon_169776.png"
   }
 
   const techDisplay = Object.keys(techs).map((tech:string, index)=>{

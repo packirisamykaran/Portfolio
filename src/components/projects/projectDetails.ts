@@ -8,7 +8,11 @@ export type projectDetailsType = {
 }
 
 const projectDetails:projectDetailsType = {
-
+    "Sentosa NFT Project":{
+        "description":"Built the Front-end for Sentosa NFT project with Next.JS and Sass",
+        "project":"https://nft.sentosa.com.sg",
+        "github":"https://github.com/packirisamykaran/"
+    },
     "Daily Thoughts": {
         "description":"Simple Social Media built with React.js and Firebase",
         "project":"https://packirisamykaran.github.io/daily-thoughts/",

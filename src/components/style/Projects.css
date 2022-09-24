@@ -1,9 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 .app {
@@ -12,77 +11,48 @@
 
 .projects {
   background-color: #14213d;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   row-gap: 2rem;
 }
-
 .projects h1 {
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
 }
-
 .projects .list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   row-gap: 1.5rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .projects .list .items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   row-gap: 0.9rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border: 3px solid #ef476f;
   border-radius: 10px;
   padding: 1rem 0.5rem;
   color: white;
-  -webkit-box-shadow: rgba(239, 71, 111, 0.4) 0px 0px 0px 2px, rgba(239, 71, 111, 0.65) 0px 4px 6px -1px, rgba(239, 71, 111, 0.08) 0px 1px 0px inset;
-          box-shadow: rgba(239, 71, 111, 0.4) 0px 0px 0px 2px, rgba(239, 71, 111, 0.65) 0px 4px 6px -1px, rgba(239, 71, 111, 0.08) 0px 1px 0px inset;
+  box-shadow: rgba(239, 71, 111, 0.4) 0px 0px 0px 2px, rgba(239, 71, 111, 0.65) 0px 4px 6px -1px, rgba(239, 71, 111, 0.08) 0px 1px 0px inset;
   max-width: 500px;
   width: 100%;
 }
-
 .projects .list .items .name {
   font-size: 1.3rem;
   font-weight: 500;
   text-align: center;
 }
-
 .projects .list .items img {
   height: 300px;
   border-radius: 10px;
 }
-
 .projects .list .items .description {
   padding: 0 1rem;
   text-align: center;
 }
-
 .projects .list .items a {
   font-size: 1rem;
   text-decoration: none;
@@ -94,23 +64,14 @@
 
 @media screen and (min-width: 900px) {
   .projects .list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-    -webkit-column-gap: 4rem;
-            column-gap: 4rem;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+    flex-wrap: wrap;
   }
   .projects .list .items {
     width: 33%;
   }
-}
-/*# sourceMappingURL=Projects.css.map */
+}/*# sourceMappingURL=Projects.css.map */
