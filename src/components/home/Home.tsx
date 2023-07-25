@@ -22,7 +22,7 @@ export default function Home() {
             <img src={media.ironman} alt="gif" className="gif"></img><br />
             I'M&nbsp;
             <span className="name">
-              KARAN
+              PACKIRISAMY KARAN
             </span>
           </div>
           <div className="title">

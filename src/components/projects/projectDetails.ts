@@ -9,19 +9,19 @@ export type projectDetailsType = {
 const projectDetails: projectDetailsType = {
     Kyzzen: {
         description:
-            "Kyzzen is a The Ultimate NFT Hub. I'm contributing to the project as a backend-developer, working with Golang & AWS",
+            "Kyzzen is a The Ultimate NFT Hub. I'm contributing to the project as a backend developer, working with Golang & AWS",
         project: "https://www.kyzzen.io/",
     },
 
     "Cryptobengz NFT Project": {
         description:
-            "Built the Front-end with React.js with Sasss and worked on creating the smart contract to mint the NFTs",
+            "Built the Front-end with React.js with Sass and worked on creating the smart contract to mint the NFTs",
         project: "https://cryptobengz.xyz",
     },
 
     "Sentosa NFT Project": {
         description:
-            "Built the Front-end for Sentosa NFT project with Next.JS and Sass",
+            "Built the Front-end for Sentosa NFT project with Next.js and Sass",
         project: "https://nft.sentosa.com.sg",
         github: "https://github.com/packirisamykaran/",
     },
