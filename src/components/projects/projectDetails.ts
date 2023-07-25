@@ -9,7 +9,7 @@ export type projectDetailsType = {
 const projectDetails: projectDetailsType = {
     Kyzzen: {
         description:
-            "Kyzzen is a The Ultimate NFT Hub. I'm contributing to the project as a backend developer, working with Golang & AWS",
+            "Kyzzen is the Ultimate NFT Hub. I'm contributing to the project as a backend developer, working with Golang & AWS",
         project: "https://www.kyzzen.io/",
     },
 
