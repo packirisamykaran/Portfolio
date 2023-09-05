@@ -45,7 +45,7 @@ export default function Home() {
               cursorColor="#ef476f"
               blink="true"
               multiText={
-                Array(100).fill("Full-Stack Web Developer")
+                Array(100).fill("Full-Stack Web3 Developer")
               }
               multiTextDelay={1000}
               typeSpeed={100}

@@ -6,11 +6,12 @@ export default function Coding() {
     <div id='about' className="coding-journey">
       <h2>How i &nbsp;<mark>started</mark> &nbsp;coding <img src={media['coding-gif']} className="coding-gif" alt="" /></h2>
       <div className="journey">
-        <div> i began programming in 2021 when i was trying to build an online business.</div>
-        {/* <div>i learned c, python and spent some time playing around with machine learning piplines and models.</div> */}
-        <div>I came across <mark>java</mark>, learned about <mark>J2EE</mark>, <mark>servlet</mark>, <mark>JSP</mark>, <mark>OOPS</mark> concepts and <mark>SQL</mark>.</div>
-        <div> That's when it clicked for me. I loved the ideas of web technology and how they work and are useful in our daily lives.</div>
-        <div>i'm currently working on building for backend for applications with <mark>Golang & AWS </mark></div>
+        <div className="journey">
+          <div>In 2021, I began my programming journey with CS50, exploring Python and machine learning.</div>
+          <div>Discovering <mark>Java</mark> and its related technologies, <mark>J2EE</mark>, <mark>servlets</mark>, <mark>JSP</mark>, <mark>OOPS</mark>, and <mark>SQL</mark>, captivated me.</div>
+          <div>I fell in love with web technology and its practicality in our daily lives.</div>
+          <div>Now, I'm actively involved in the <mark>web3 space</mark>, launching NFT projects and an NFT marketplace, fueled by my passion for <mark>blockchain</mark> technology's evolving applications.</div>
+        </div>
       </div>
     </div>
   )

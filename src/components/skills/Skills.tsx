@@ -4,7 +4,7 @@ import "../style/Skills.css"
 export default function Skills() {
 
   const techs: any = {
-    "AWS": "https://img.icons8.com/?size=512&id=e6uRfPIDgoXi&format=png",
+    "AWS": "https://img.icons8.com/?size=512&id=mHi46t5vguiz&format=png",
     "Golang": "https://img.icons8.com/?size=2x&id=44442&format=png",
     "TypeScript": "https://img.icons8.com/fluency/344/typescript.png",
     "ReactJS": "https://img.icons8.com/color/344/react-native.png",
