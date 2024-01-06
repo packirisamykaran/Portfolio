@@ -5,6 +5,10 @@
   font-family: "Rubik", sans-serif;
 }
 
+body {
+  background: #14213d;
+}
+
 .app {
   width: 100%;
-}/*# sourceMappingURL=App.css.map */
+}

@@ -1,21 +1,22 @@
-
-
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
 
 
-$pri:#14213d;
-$thr:#e5e5e5;
+$pri: #14213d;
+$thr: #e5e5e5;
 $sec: #ef476f;
 
 
-.app{
+body {
+    background: #14213d;
+}
+
+.app {
 
 
     width: 100%;
 }
-
