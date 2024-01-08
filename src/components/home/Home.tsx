@@ -1,5 +1,5 @@
 import React from 'react'
-import { media } from '../assets'
+import { media } from '../../sections/assets'
 import "../style/Home.css"
 import devImg from "../images/dev-vector.png";
 import Coding from '../coding/Coding';

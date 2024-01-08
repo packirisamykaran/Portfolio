@@ -1,5 +1,5 @@
 import React from 'react'
-import { media } from '../assets'
+import { media } from '../../sections/assets'
 
 export default function Coding() {
   return (
