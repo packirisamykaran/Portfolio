@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e2f701f3.css",
-    "main.js": "/portfolio/static/js/main.2c3054dc.js",
+    "main.css": "/portfolio/static/css/main.bbbeee74.css",
+    "main.js": "/portfolio/static/js/main.d9b3d5f7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Cheong Machinery Equipment.png": "/portfolio/static/media/Cheong Machinery Equipment.6114dd844585fd98291c.png",
-    "static/media/Sentosa NFT Project.png": "/portfolio/static/media/Sentosa NFT Project.ec2a3edeae24b41ef62a.png",
+    "static/media/Tradecom desktop.png": "/portfolio/static/media/Tradecom desktop.3542aac55da3bf42a0a6.png",
+    "static/media/Sentosa NFT Project desktop.png": "/portfolio/static/media/Sentosa NFT Project desktop.63318cc5cffef20c2d52.png",
+    "static/media/Cheong Machinery Equipment desktop.png": "/portfolio/static/media/Cheong Machinery Equipment desktop.84d08a2b444f6ff5e66d.png",
+    "static/media/XVA Collective desktop.png": "/portfolio/static/media/XVA Collective desktop.ab800918188439ce20cb.png",
+    "static/media/Cryptobengz NFT Project desktop.png": "/portfolio/static/media/Cryptobengz NFT Project desktop.0797627c7522a2dd4d4d.png",
+    "static/media/Kyzzen desktop.png": "/portfolio/static/media/Kyzzen desktop.6671abf9b401bc016787.png",
     "static/media/dev-vector.png": "/portfolio/static/media/dev-vector.89fab8b182fb38d04465.png",
-    "static/media/Cryptobengz NFT Project.png": "/portfolio/static/media/Cryptobengz NFT Project.cadb6196d562c327b20e.png",
-    "static/media/Kyzzen.png": "/portfolio/static/media/Kyzzen.3bca015594020b232954.png",
-    "static/media/Daily Thoughts.png": "/portfolio/static/media/Daily Thoughts.7fa772ec7a24c1b77c7b.png",
     "index.html": "/portfolio/index.html",
-    "main.e2f701f3.css.map": "/portfolio/static/css/main.e2f701f3.css.map",
-    "main.2c3054dc.js.map": "/portfolio/static/js/main.2c3054dc.js.map",
+    "main.bbbeee74.css.map": "/portfolio/static/css/main.bbbeee74.css.map",
+    "main.d9b3d5f7.js.map": "/portfolio/static/js/main.d9b3d5f7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2f701f3.css",
-    "static/js/main.2c3054dc.js"
+    "static/css/main.bbbeee74.css",
+    "static/js/main.d9b3d5f7.js"
   ]
 }
