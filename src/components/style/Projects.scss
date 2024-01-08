@@ -1,6 +1,6 @@
 @import "./App.scss";
 
-.projects{
+.projects {
 
 
     background-color: $pri;
@@ -9,7 +9,7 @@
     flex-direction: column;
     row-gap: 2rem;
 
-    h1{
+    h1 {
         font-size: 2rem;
         font-weight: 500;
         text-align: center;
@@ -19,7 +19,7 @@
 
 
 
-    .list{
+    .list {
 
         display: flex;
         flex-direction: column;
@@ -27,46 +27,48 @@
         // background-color: aqua;
         justify-content: center;
         align-items: center;
-        
 
 
-        .items{
+
+        .items {
             display: flex;
             flex-direction: column;
             row-gap: 0.9rem;
             align-items: center;
-            border: 3px solid $sec;
+            // border: 3px solid $sec;
             border-radius: 10px;
             padding: 1rem 0.5rem;
             color: white;
-            box-shadow: rgba($sec, 0.4) 0px 0px 0px 2px, rgba($sec, 0.65) 0px 4px 6px -1px, rgba($sec, 0.08) 0px 1px 0px inset;
+            // box-shadow: rgba($sec, 0.4) 0px 0px 0px 2px, rgba($sec, 0.65) 0px 4px 6px -1px, rgba($sec, 0.08) 0px 1px 0px inset;
             max-width: 500px;
-            
+            background-color: lighten($color: $pri, $amount: 5%);
+
+
             width: 100%;
 
-            .name{
+            .name {
                 font-size: 1.3rem;
                 font-weight: 500;
                 text-align: center;
             }
 
-            img{
+            img {
                 height: 300px;
                 border-radius: 10px;
             }
 
-            .description{
+            .description {
                 padding: 0 1rem;
                 text-align: center;
             }
 
-            a{
+            a {
                 font-size: 1rem;
                 text-decoration: none;
                 background-color: white;
                 padding: 0.2rem 0.5rem;
                 border-radius: 5px;
-                color:$sec;
+                color: $sec;
 
             }
         }
@@ -76,22 +78,22 @@
 
 @media screen and (min-width:900px) {
 
-    .projects{
-        .list{
+    .projects {
+        .list {
             display: flex;
             flex-direction: row;
             align-items: stretch;
-            column-gap: 4rem;          
-            flex-wrap: wrap;  
+            column-gap: 4rem;
+            flex-wrap: wrap;
 
-            .items{
+            .items {
 
                 width: 33%;
-                
+
             }
-        
+
+        }
+
     }
 
-}
-    
 }

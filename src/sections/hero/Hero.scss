@@ -1,0 +1,29 @@
+.hero {
+  // background: green;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+
+  .greet-title {
+    margin-top: 2rem;
+    width: 100%;
+
+    .greet {
+      text-align: center;
+    }
+
+    .title {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+  }
+
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { media } from '../assets'
+import { media } from '../../sections/assets'
 import "../style/Home.css"
 import devImg from "../images/dev-vector.png";
 import Coding from '../coding/Coding';
@@ -54,9 +54,9 @@ export default function Home() {
         </div>
         <img src={devImg} alt="" className="dev-vector" />
       </div>
-      <Coding />
+      {/* <Coding /> */}
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
     </div>
   )
 }

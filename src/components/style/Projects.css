@@ -5,6 +5,10 @@
   font-family: "Rubik", sans-serif;
 }
 
+body {
+  background: #14213d;
+}
+
 .app {
   width: 100%;
 }
@@ -32,12 +36,11 @@
   flex-direction: column;
   row-gap: 0.9rem;
   align-items: center;
-  border: 3px solid #ef476f;
   border-radius: 10px;
   padding: 1rem 0.5rem;
   color: white;
-  box-shadow: rgba(239, 71, 111, 0.4) 0px 0px 0px 2px, rgba(239, 71, 111, 0.65) 0px 4px 6px -1px, rgba(239, 71, 111, 0.08) 0px 1px 0px inset;
   max-width: 500px;
+  background-color: #1a2b50;
   width: 100%;
 }
 .projects .list .items .name {
@@ -74,4 +77,4 @@
   .projects .list .items {
     width: 33%;
   }
-}/*# sourceMappingURL=Projects.css.map */
+}

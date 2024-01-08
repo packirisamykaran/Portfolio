@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Tektur:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+
+$pri: #0b041a;
+$sec: #2d3142;
+$text: #f5f5f5;
+
+
+
+body {
+  background-color: $pri;
+  color: $text;
+}
+
+
+.section-bg {
+  background-color: $sec;
+
+}
+
+.heading {
+  font-family: 'Tektur', sans-serif;
+}
+
+.section-page-container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+.app {
+  padding: 2rem 5%;
+}
+
+.section {
+  margin: 2rem 0;
+}
