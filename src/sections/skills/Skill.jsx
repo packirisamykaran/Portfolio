@@ -1,4 +1,5 @@
 import React from 'react'
+import './Skill.css'
 
 export default function Skill() {
 
@@ -23,11 +24,11 @@ export default function Skill() {
     return <div className='skill' key={index}><img className='icon' src={techs[tech]} alt="" /><div className='skill'>{tech}</div></div>
   })
   return (
-    <div className="skill">
+    <div className="skills">
       <div className="heading">
-        Web Technologies i have worked with
+        Web Technologies
       </div>
-      <div className="skills-container">
+      <div className="container section-bg">
         {techDisplay}
       </div>
     </div>
