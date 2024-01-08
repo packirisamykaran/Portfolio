@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <div className='projects section'>
       <h3 className="heading">
-        Hand crafted
+        Projects
       </h3>
       <div className="container">
         {projectList}

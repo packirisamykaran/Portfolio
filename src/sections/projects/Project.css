@@ -66,3 +66,22 @@
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+@media screen and (min-width: 768px) {
+  .projects .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    row-gap: 1rem;
+    align-items: stretch;
+  }
+  .projects .container .project {
+    width: 30%;
+    justify-content: flex-start;
+  }
+  .projects .container .project .button {
+    margin-top: auto;
+  }
+}

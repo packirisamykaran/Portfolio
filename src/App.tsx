@@ -9,6 +9,7 @@ function App() {
   return (
     <BrowserRouter basename='portfolio'>
       <div className="app">
+        <Home></Home>
         <Projects />
       </div>
     </BrowserRouter>

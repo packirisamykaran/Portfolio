@@ -54,9 +54,9 @@ export default function Home() {
         </div>
         <img src={devImg} alt="" className="dev-vector" />
       </div>
-      <Coding />
+      {/* <Coding /> */}
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
     </div>
   )
 }
