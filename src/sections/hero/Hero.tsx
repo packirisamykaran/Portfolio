@@ -32,7 +32,7 @@ export default function Hero() {
             cursorColor="#ef476f"
             blink="true"
             multiText={
-              Array(100).fill("Full-Stack Web3 Developer")
+              Array(100).fill("Full-Stack Developer")
             }
             multiTextDelay={1000}
             typeSpeed={100}
